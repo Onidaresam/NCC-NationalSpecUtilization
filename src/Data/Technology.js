@@ -80,16 +80,6 @@ const TechData = [
                         }
                       },
                       {
-                        "range": "110Mhz – 2200Mhz",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
                         "range": "316Mhz – 328.6Mhz",
                         "result": {
                           "utilization": "",
@@ -100,7 +90,7 @@ const TechData = [
                         }
                       },
                       {
-                        "range": "335.4Mhz - 400Mhz",
+                        "range": "335.4Mhz - 387.0Mhz",
                         "result": {
                           "utilization": "",
                           "frequencies": {
@@ -110,87 +100,7 @@ const TechData = [
                         }
                       },
                       {
-                        "range": "410Mhz – 420Mhz (except aeronautical mobile)",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "430.00Mhz – 450.00Mhz (except aeronautical mobile)",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "450Mhz – 470Mhz (Meteorological-satellite (s-E))",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "790Mhz – 942Mhz (except aeronautical mobile)",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "1350Mhz – 1400Mhz",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "1427Mhz - 1452Mhz (s-E) (except aeronautical mobile)",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "1492Mhz – 1518Mhz (except aeronautical mobile)",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "1525Mhz – 1559Mhz (except aeronautical mobile)",
-                        "result": {
-                          "utilization": "",
-                          "frequencies": {
-                            "utilized": [],
-                            "notutilized": []
-                          }
-                        }
-                      },
-                      {
-                        "range": "1626.5Mhz – 1670Mhz (RADIO ASTRONOMY) (except aeronautical mobile)",
+                        "range": "390.0Mhz – 400Mhz",
                         "result": {
                           "utilization": "",
                           "frequencies": {
@@ -210,6 +120,216 @@ const TechData = [
                         }
                       },
                       {
+                        "range": "312Mhz – 315Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "2010Mhz-2025Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "110Mhz – 2200Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "2450Mhz – 2690Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "387Mhz – 390Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "450Mhz – 460Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "1350Mhz – 1400Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "1535Mhz – 1559Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "1626.5Mhz – 1660.0Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "410Mhz – 420Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "430.00Mhz – 450.00Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "2655Mhz - 2690Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "2500Mhz – 2690Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "862Mhz – 890Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "790Mhz – 862Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "890Mhz – 942Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "2520Mhz – 2655Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "1429Mhz – 1525Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "2290Mhz – 2300Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "460Mhz – 470Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "1525Mhz  – 1535Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
                         "range": "2025Mhz – 2110Mhz",
                         "result": {
                           "utilization": "",
@@ -218,7 +338,147 @@ const TechData = [
                             "notutilized": []
                           }
                         }
-                      }
+                      }, 
+                      {
+                        "range": "2290Mhz – 2520Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "1427Mhz - 1429Mhz (s-E)",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "1660.5Mhz – 1670Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "406.1Mhz - 410.0Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      }, 
+                      {
+                        "range": "1429Mhz – 1452Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "1492Mhz – 1518Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "3400Mhz - 4200Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "4400Mhz - 4800Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "5925Mhz - 6700Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "5570Mhz - 5650Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "5725Mhz - 5925Mhz (E-s)",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "4800Mhz - 4990Mhz",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "5650Mhz - 5725Mhz (s-s) Mobile except aeronautical mobile",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
+                      {
+                        "range": "4990Mhz - 5000Mhz (s-s)",
+                        "result": {
+                          "utilization": "",
+                          "frequencies": {
+                            "utilized": [],
+                            "notutilized": []
+                          }
+                        }
+                      },
                     ]
                 },
                 {
