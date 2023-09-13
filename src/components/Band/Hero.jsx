@@ -107,7 +107,7 @@ export default function Hero() {
       return;
     }
 
-    if (!payload.subbandss && band !== "100Khz-30Mhz") {
+    if (!payload.subbandss && band !== "100KHZ-30MHZ") {
       setLoading(false);
       toast({
         title: 'Error',
@@ -160,7 +160,6 @@ export default function Hero() {
 
     }
     const res = await getResultObject(payload)
-    console.log(payload)
     setTimeout(()=>{
       setResult(res);
       setLoading(false)
@@ -183,7 +182,6 @@ export default function Hero() {
     // If no state is selected or Lagos is selected but no region, return true
     return true;
   }
-  
     const settings = {
         infinite: true,
         speed: 500,
@@ -199,7 +197,6 @@ export default function Hero() {
        
        
       };
-      console.log(result)
   return (
     <> 
     <div className=' flex flex-col lg:hidden'>
@@ -275,7 +272,7 @@ export default function Hero() {
             {/*Subbands */}
             <div>
               {
-                band !=="100Khz-30Mhz" && state !="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
+                band !=="100KHZ-30MHZ" && state !="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
                   <Select name="subbands" placeholder='Select Sub-Band' variant='unstyled' size="lg" isDisabled={band ? false : true}
                   className='w-full'  
                   onChange={handleSubbandChange}>
@@ -290,7 +287,7 @@ export default function Hero() {
                 </div>
 
               }{
-                band !=="100Khz-30Mhz" && state ==="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
+                band !=="100KHZ-30MHZ" && state ==="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
                 <Select name="subbands" placeholder='Select Sub-Band' variant='unstyled' size="lg" isDisabled={band ? false : true}
                 className='w-full'  
                 onChange={handleSubbandChange}>
@@ -474,7 +471,7 @@ export default function Hero() {
                 }
               </div>
               {
-                band !=="100Khz-30Mhz" && state !="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
+                band !=="100KHZ-30MHZ" && state !="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
                   <Select name="subbands" placeholder='Select Sub-Band' variant='unstyled' size="lg" isDisabled={band ? false : true}
                   className='w-full'  
                   onChange={handleSubbandChange}>
@@ -489,7 +486,7 @@ export default function Hero() {
                 </div>
 
               }{
-                band !=="100Khz-30Mhz" && state ==="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
+                band !=="100KHZ-30MHZ" && state ==="Lagos" && <div className='p-[16px] w-full rounded-[10px] border border-solid border-[#CECEDE] bg-white focus:border-[#73FF0F] '>
                 <Select name="subbands" placeholder='Select Sub-Band' variant='unstyled' size="lg" isDisabled={band ? false : true}
                 className='w-full'  
                 onChange={handleSubbandChange}>

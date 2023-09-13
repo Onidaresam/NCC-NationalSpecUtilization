@@ -4139,7 +4139,7 @@ const TechData = [
     },
     {
       id: 2,
-      location: "Unilorin",
+      location: "University of Ilorin",
       technologies: [
         {
             name: "Fixed Mobile",
