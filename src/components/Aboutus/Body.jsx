@@ -12,6 +12,7 @@ export default function Body() {
     <div className='flex flex-col lg:hidden'>
         <div className='!h-[700px] !w-full md:!h-[300px]'>
             <img src ={mobileabout}
+                className='w-full'
                    alt="spectrum about"/>
         </div>
         <div className='relative mx-[16px] bottom-[100px] md:bottom-[-1000px] left-0 right-0
@@ -47,7 +48,8 @@ export default function Body() {
     </div>
     <div className='hidden lg:flex flex-col'>
         <div className='!h-[600px] !w-full'>
-            <img  src= {hero}/>
+            <img  src= {hero}
+            className='w-full'/>
         </div>
         <div className='relative lg:bottom-[250px] xl:bottom-[140px] left-0 right-0 mx-[172.5px] p-[40px] rounded-[20px] border-2 border-[#EDEDF2] bg-white shadow-spec'>
             <h1 className='text-[#5F5F8C] text-center font-semibold font-graphik text-[20px] leading-[28px]'>
