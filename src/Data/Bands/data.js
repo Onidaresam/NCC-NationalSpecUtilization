@@ -6758,16 +6758,16 @@ const BandsData = [
     },
     {
       id: 5,
-      location: "Kogi",
+      location: "Lokoja Kogi",
       bands: [
         //0hz to 30Mhz
         {
           range: "100KHZ-30MHZ",
           result: {
-            utilization: "",
+            utilization: "33.33",
             frequencies: {
-              utilized: [],
-              notutilized: []
+              utilized: ["100KHZ"],
+              notutilized: ["13.14MHZ","26.19MHZ"]
             }
           }
         },
@@ -6778,90 +6778,90 @@ const BandsData = [
             {
               "range": "30.00MHz - 60.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0.16",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["39.23MHZ","53.27MHZ", ]
                 }
               }
             },
             {
               "range": "60.00MHz - 90.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0.40",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["65.32MHZ","78.36MHZ"]
                 }
               }
             },
             {
               "range": "90.00MHz - 120.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0.51",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["91.40MHZ","104.45MHZ","117.49MHZ"]
                 }
               }
             },
             {
               "range": "120.00MHz - 150.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["130.53MHZ","143.58MHZ"]
                 }
               }
             },
             {
               "range": "150.00MHz - 180.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["156.62MHZ","169.66MHZ"]
                 }
               }
             },
             {
               "range": "180.00MHz - 210.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["182.71MHZ","195.75MHZ","208.79MHZ"]
                 }
               }
             },
             {
               "range": "210.00MHz - 240.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["221.84MHZ","234.88MHZ"]
                 }
               }
             },
             {
               "range": "240.00MHz - 270.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["247.92MHZ","260.87MHZ"]
                 }
               }
             },
             {
               "range": "270.00MHz - 300.00MHz",
               "result": {
-                "utilization": "",
+                "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": []
+                  "notutilized": ["274.00MHZ","287.05MHZ", "300.00MHZ"]
                 }
               }
             }
