@@ -120,9 +120,9 @@ const BandsData = [
               {
                 range: "300.00-330.00MHz",
                 result: {
-                  utilization: "",
+                  utilization: "0",
                   frequencies: {
-                    utilized: [],
+                    utilized: ["","",""],
                     notutilized: []
                   }
                 }
