@@ -5,7 +5,7 @@ import { MdEmail} from 'react-icons/md';
 import mobileabout from '../../assets/mobileabout.png'
 import hero from '../../assets/aboutushero.png'
 import UserData from '../../Data/userdata'
-import Hod from '../../assets/hod.jpg'
+import Hod from '../../assets/Hod.jpg'
 
 export default function Body() {
   return (
