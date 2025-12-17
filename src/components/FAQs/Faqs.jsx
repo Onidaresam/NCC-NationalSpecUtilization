@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-import { useState } from "react"; // import state
+import { useState } from 'react'; // import state
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false); // initiate isNavOpen state with false
@@ -18,7 +18,7 @@ export default function Header() {
             <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
           </div>
 
-          <div className={isNavOpen ? "showMenuNav" : "hideMenuNav"}>
+          <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
             <div
               className="CROSS-ICON absolute top-0 right-0 px-8 py-8"
               onClick={() => setIsNavOpen(false)} // change isNavOpen state to false to close the menu

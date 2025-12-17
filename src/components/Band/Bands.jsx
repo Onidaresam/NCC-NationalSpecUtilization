@@ -1,8 +1,8 @@
-import React from 'react'
-import Nav from './Nav'
-import Hero from './Hero'
+import React from 'react';
+import Nav from './Nav';
+import Hero from './Hero';
 
-import Footer from './Footer'
+import Footer from './Footer';
 
 export default function Bands() {
   return (
@@ -11,5 +11,5 @@ export default function Bands() {
       <Hero />
       <Footer />
     </div>
-  )
+  );
 }

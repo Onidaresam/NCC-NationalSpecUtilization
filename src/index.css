@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-.page-num{
-    padding: 8px 15px;
-    border-radius: 3px;
-    border-color: red;
-    cursor:pointer;
-    font-weight: 600;
-    --tw-text-opacity: 1;
-    color: #5F5F8C
+.page-num {
+  padding: 8px 15px;
+  border-radius: 3px;
+  border-color: red;
+  cursor: pointer;
+  font-weight: 600;
+  --tw-text-opacity: 1;
+  color: #5f5f8c;
 }
 
-.page-num:hover{
-    background-color: #73FF0F;
-    color:white;
+.page-num:hover {
+  background-color: #73ff0f;
+  color: white;
 }
-.active{
-    background-color: #73FF0F;
+.active {
+  background-color: #73ff0f;
 }

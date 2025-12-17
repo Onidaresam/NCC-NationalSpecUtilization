@@ -1,4 +1,4 @@
-import './App.css'
+import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Bands from './components/Band/Bands';
 import About from './components/Aboutus/About';
@@ -9,13 +9,12 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="" element={<Bands/>} />
-          <Route path="/aboutus" element={<About/>} />
+          <Route path="" element={<Bands />} />
+          <Route path="/aboutus" element={<About />} />
           <Route path="/technologies" element={<Technologies />} />
-          
         </Routes>
       </Router>
     </div>
-  )
+  );
 }
-export default App
+export default App;
