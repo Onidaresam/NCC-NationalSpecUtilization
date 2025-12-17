@@ -7897,7 +7897,7 @@ const BandsData = [
 
     },
     {
-      id: 5,
+      id: 6,
       location: "Warri",
       bands: [
         //0hz to 30MHz
@@ -9205,10 +9205,9 @@ const BandsData = [
         }
 
         ]
-  
       },
      {
-      id: 5,
+      id: 7,
       location: "Kaduna",
        bands: [
         //0hz to 30MHz
@@ -10513,6 +10512,10 @@ const BandsData = [
 
 
         ]
+      },
+      {
+      id: 8,
+      location: "Abuja",
       }
   ];
 export default BandsData
