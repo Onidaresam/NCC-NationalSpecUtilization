@@ -10662,7 +10662,7 @@ const BandsData = [
       }
     }
   ]
-}
+},
         //300MHz to 3GHz
         {
             range: "300MHZ-3GHZ",
