@@ -11570,7 +11570,6 @@ const BandsData = [
             },
 
       ]
-
       },
         
 ];
