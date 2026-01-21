@@ -10554,7 +10554,7 @@ const BandsData = [
       },
       {
       id: 9,
-      location: "Oweri",
+      location: "Bauchi",
       bands: [
         //300MHz to 3GHz
         {
