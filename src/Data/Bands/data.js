@@ -11796,4 +11796,4 @@ const BandsData = [
           ]
         }
 ];
-export default BandsData
+export default BandsData;
