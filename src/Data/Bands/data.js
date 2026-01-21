@@ -10576,7 +10576,7 @@ const BandsData = [
               "result": {
                 "utilization": "77.08",
                 "frequencies": {
-                  "utilized": ["30.00MHz - 39.23MHz (76.12%)”, “39.23MHz - 52.27MHz (77.19%)”, “53.27MHz - 60.00MHz(77.94%)”],
+                  "utilized": ["30.00MHz - 39.23MHz (76.12%)", “39.23MHz - 52.27MHz (77.19%)”, “53.27MHz - 60.00MHz(77.94%)”],
                   "notutilized": []
                 }
               }
