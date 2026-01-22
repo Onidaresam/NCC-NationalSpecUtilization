@@ -11701,7 +11701,7 @@ const BandsData = [
                 "utilization": "0.00",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["30.00MHz - 39.23MHz (0%)", "39.23MHz - 52.27MHz (0%)”, “53.27MHz - 60.00MHz(0%)” ]
+                  "notutilized": ["30.00MHz - 39.23MHz (0%)", "39.23MHz - 52.27MHz (0%)", "53.27MHz - 60.00MHz(0%)" ]
                 }
               }
             },
@@ -11731,7 +11731,7 @@ const BandsData = [
                 "utilization": "0",
                 "frequencies": {
                   "utilized": [],
-                  "notutilized": ["120.00MHz - 130.53MHz (0%)","130.53MHz - 143.58MHz (0%)", "143.58MHz - 150.00MHz (0%)”]
+                  "notutilized": ["120.00MHz - 130.53MHz (0%)","130.53MHz - 143.58MHz (0%)", "143.58MHz - 150.00MHz (0%)"]
                 }
               }
             },
