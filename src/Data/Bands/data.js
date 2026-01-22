@@ -11686,7 +11686,7 @@ const BandsData = [
             { range: "4170.00MHz-4200.00MHz", result: { utilization: "50.03", frequencies: { utilized: ["4170.00MHz-4174.00MHz(49.04%)", "4174.00MHz-4187.00MHz(49.99%)", "4187.00MHz-4200.00MHz(51.05%)"], notutilized: [] } } },
 
 
-            { range: "4200.00MHz-4230.00MHz", result: { utilization: "51.74", frequencies: { utilized: [ "4200.00MHz-4213.00MHz(51.05%)"  "4213.00MHz-4226.00MHz(51.87%)", "4226.00MHz-4230.00MHz(52.32%)"], notutilized: [] } } },
+            { range: "4200.00MHz-4230.00MHz", result: { utilization: "51.74", frequencies: { utilized: ["4200.00MHz-4213.00MHz(51.05%)",  "4213.00MHz-4226.00MHz(51.87%)", "4226.00MHz-4230.00MHz(52.32%)"], notutilized: [] } } },
 
 
             { range: "4230.00MHz-4260.00MHz", result: { utilization: "54.53", frequencies: { utilized: ["4230.00MHz-4239.00MHz(52.32%)","4239.00MHz-4252.00MHz(53.90%)", "4252.00MHz-4260.00MHz(55.39%)"], notutilized: [] } } },
@@ -11707,7 +11707,7 @@ const BandsData = [
             { range: "4380.00MHz-4410.00MHz", result: { utilization: "67.35", frequencies: { utilized: ["4380.00MHz-4383.00MHz(66.42%)", "4383.00MHz-4396.00MHz(66.42%)", "4396.00MHz-4408.00MHz(67.30%)","4408.00MHz-4410.00MHz(68.32%)"], notutilized: [] } } },
 
 
-            { range: "4410.00MHz-4440.00MHz", result: { utilization: "69.89", frequencies: { utilized: ["4410.00MHz-4422.00MHz(68.32%)" "4422.00MHz-4435.00MHz(69.47%)", "4435.00MHz-4440.00MHz(70.55%)",], notutilized: [] } } },
+            { range: "4410.00MHz-4440.00MHz", result: { utilization: "69.89", frequencies: { utilized: ["4410.00MHz-4422.00MHz(68.32%)", "4422.00MHz-4435.00MHz(69.47%)", "4435.00MHz-4440.00MHz(70.55%)",], notutilized: [] } } },
 
 
             { range: "4440.00MHz-4470.00MHz", result: { utilization: "71.80", frequencies: { utilized: ["4440.00MHz-4448.00MHz(70.55%)", "4448.00MHz-4461.00MHz(71.23%)", "4461.00MHz-4470.00MHz(72.31%)",], notutilized: [] } } },
