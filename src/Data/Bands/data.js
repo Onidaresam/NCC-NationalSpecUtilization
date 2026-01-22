@@ -11210,7 +11210,7 @@ const BandsData = [
               {
                 range: "1920.00-1950.00MHz",
                 result: {
-                  utilization: "99.93"%,
+                  utilization: "99.93%",
                   frequencies: {
                     utilized: ["1920.00-1930.00MHz(99.73%)","1930.00-1944.00MHz(100%)", "1944.00-1950.00MHz(100%)"],
                     notutilized: []
