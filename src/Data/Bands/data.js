@@ -11674,9 +11674,9 @@ const BandsData = [
             { range: "5970.00MHz-6000.00MHz", result: { utilization: "100", frequencies: { utilized: ["5970.00MHz-5974.00MHz(100%)",  "5974.00MHz-5987.00MHz(100%)", "5987.00MHz-6000.00MHz(100%)"], notutilized: [] } } },
           ]
         },
-      ]
-      },
-{
+    ]
+    },
+    {
       id: 10,
       location: "Owerri",
       bands: [
@@ -12035,7 +12035,7 @@ const BandsData = [
                   range: "1020.00-1050.00MHz",
                   result: {
                   utilization: "99.84",
-                  Frequencies : {
+                  frequencies : {
                      utilized: ["1020.00-1030.00MHz(99.83%)","1030.00-1040.00MHz(99.85%)","1040.00-1050.00MHz(99.89%)"],
                      notutilized: []
                   }
@@ -12799,9 +12799,7 @@ const BandsData = [
                   { range: "5970.00MHz-6000.00MHz", result: { utilization: "100", frequencies: { utilized: ["5970.00MHz-5990.00MHz(100%)",  "5990.00MHz-6000.00MHz(100%)"], notutilized: [] } } },
                ]
             },
-
-      ]
-
-      },
-];
+          ]
+          },
+        ];
 export default BandsData
