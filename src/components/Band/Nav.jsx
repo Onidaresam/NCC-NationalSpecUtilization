@@ -1,6 +1,6 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import WaveformLogo from "../Logo/WaveformLogo";
 
 export default function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -9,8 +9,11 @@ export default function Nav() {
     <>
       {/* MOBILE NAV */}
       <div className="flex flex-row pt-[24px] px-[16px] md:px-[45px] md:pb-[17px] pb-[12px] lg:hidden z-[8888] sticky top-0 bg-white justify-between">
-        <div>
-          <h1 className="text-lg font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent tracking-wide">
+        
+        {/* Logo + Title */}
+        <div className="flex items-center gap-3 group cursor-pointer">
+        <WaveformLogo />
+         <h1 className="text-lg font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent tracking-wide transition-all duration-300 group-hover:tracking-widest group-hover:scale-[1.03]">
             National Spectrum Utilization Dashboard
           </h1>
         </div>
@@ -85,8 +88,11 @@ export default function Nav() {
 
       {/* DESKTOP NAV */}
       <div className="hidden z-[8888] sticky top-0 bg-white lg:flex flex-row items-center px-[80px] py-[16px] justify-between">
-        <div>
-          <h1 className="text-xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent tracking-wide">
+        
+        {/* Logo + Title */}
+        <div className="flex items-center gap-3 group cursor-pointer">
+         <WaveformLogo />
+        <h1 className="text-xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent tracking-wide transition-all duration-300 group-hover:tracking-widest group-hover:scale-[1.03]">
             National Spectrum Utilization Dashboard
           </h1>
         </div>
