@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import WaveformLogo from "../Logo/WaveformLogo";
 
 export default function Nav() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -12,8 +11,18 @@ export default function Nav() {
         
         {/* Logo + Title */}
         <div className="flex items-center gap-3 group cursor-pointer">
-        <WaveformLogo />
-         <h1 className="text-lg font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent tracking-wide transition-all duration-300 group-hover:tracking-widest group-hover:scale-[1.03]">
+
+          <div className="h-20 w-20 rounded-full bg-[#1a1a2e] flex items-center justify-center shadow-[0_0_25px_#8E2DE2]">
+            <img 
+              src="/waveform.jpg" 
+              alt="Waveform" 
+              className="h-14 w-auto drop-shadow-[0_0_30px_#8E2DE2] brightness-150"
+            />
+          </div>
+
+          <h1 className="text-xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] 
+            bg-clip-text text-transparent tracking-wide transition-all duration-300 
+            group-hover:tracking-widest group-hover:scale-[1.03]">
             National Spectrum Utilization Dashboard
           </h1>
         </div>
@@ -48,19 +57,13 @@ export default function Nav() {
                 </svg>
               </div>
 
+              {/* ⭐ MOBILE MENU LINKS (Meet the Team removed) */}
               <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
                 <Link
                   className="underline underline-offset-8 text-[#73FF0F] font-graphik text-base font-bold leading-6"
                   to="/"
                 >
                   Bands
-                </Link>
-
-                <Link
-                  className="hover:underline hover:underline-offset-8 hover:text-[#73FF0F] font-graphik text-base font-bold leading-6"
-                  to="/aboutus"
-                >
-                  Meet the Team
                 </Link>
               </ul>
             </div>
@@ -89,27 +92,30 @@ export default function Nav() {
       {/* DESKTOP NAV */}
       <div className="hidden z-[8888] sticky top-0 bg-white lg:flex flex-row items-center px-[80px] py-[16px] justify-between">
         
-        {/* Logo + Title */}
         <div className="flex items-center gap-3 group cursor-pointer">
-         <WaveformLogo />
-        <h1 className="text-xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent tracking-wide transition-all duration-300 group-hover:tracking-widest group-hover:scale-[1.03]">
+
+          <div className="h-24 w-24 rounded-full bg-[#1a1a2e] flex items-center justify-center shadow-[0_0_40px_#8E2DE2]">
+            <img 
+              src="/waveform.jpg" 
+              alt="Waveform" 
+              className="h-18 w-auto drop-shadow-[0_0_40px_#8E2DE2] brightness-150"
+            />
+          </div>
+
+          <h1 className="text-3xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] 
+            bg-clip-text text-transparent tracking-wide transition-all duration-300 
+            group-hover:tracking-widest group-hover:scale-[1.03]">
             National Spectrum Utilization Dashboard
           </h1>
         </div>
 
+        {/* ⭐ DESKTOP MENU (Meet the Team removed) */}
         <div className="flex items-center space-x-[40px]">
           <Link
             to="/"
             className="text-[#73FF0F] font-graphik text-base font-bold leading-6 px-[16px] py-[12px] rounded-lg bg-[#4F00B6]"
           >
             Bands
-          </Link>
-
-          <Link
-            to="/aboutus"
-            className="text-[#5F5F8C] hover:text-[#73FF0F] font-graphik text-base font-medium leading-6"
-          >
-            Meet the Team
           </Link>
         </div>
       </div>

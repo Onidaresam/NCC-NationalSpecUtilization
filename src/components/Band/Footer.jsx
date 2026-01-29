@@ -1,46 +1,44 @@
-import React from 'react';
+import React from "react";
 
 export default function Footer() {
   return (
-    <>
-      <div className=" flex flex-col lg:hidden  mt-[110px] space-y-[24px] px-[16px] pb-[40px]">
-        <div className="flex flex-col space-y-[8px]">
-          <p className="font-akira text-[20px] font-extrabold leading-[28px]">
-            SPECPROFILE
-          </p>
-          <p className="font-graphik text-[16px] font-normal leading-[24px]">
-            Copyright 2023. SpecProfile.
-          </p>
-          <p className="font-graphik text-[16px] font-normal leading-[24px]">
-            This site is protected by the Google Privacy Policy and Terms of
-            Service apply
-          </p>
-        </div>
-        <div className="flex">
-          <p className="font-graphik text-[16px] font-normal leading-[24px]">
-            Created By The SpecProfile Group
-          </p>
-        </div>
+    <footer className="w-full bg-white border-t border-gray-200 mt-10 sticky bottom-0">
+      
+      {/* Gradient Accent Bar */}
+      <div className="w-full h-1 bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2]" />
+
+      {/* MOBILE */}
+      <div className="lg:hidden flex flex-col px-6 py-4 space-y-2 text-center items-center">
+        
+        <h2 className="text-xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent">
+          NationalSpectrumView
+        </h2>
+
+        <p className="text-gray-600 text-sm">
+          Copyright 2026. The NCC/NRSS Research Team.
+        </p>
+
+        <p className="text-gray-500 text-xs">
+          Created by the NRSS Research Team.
+        </p>
       </div>
-      <div className="hidden mt-[110px] lg:flex flex-row justify-between py-[24px] px-[80px]">
-        <div className="flex flex-col space-y-[8px]">
-          <p className="font-akira text-[20px] font-extrabold leading-[28px]">
-            SPECPROFILE
-          </p>
-          <p className="font-graphik text-[16px] font-normal leading-[24px]">
-            Copyright 2023. SpecProfile.
-          </p>
-          <p className="font-graphik text-[16px] font-normal leading-[24px]">
-            This site is protected by the Google Privacy Policy and Terms of
-            Service apply
-          </p>
-        </div>
-        <div className="flex items-end">
-          <p className="font-graphik text-[16px] font-normal leading-[24px]">
-            Created By The SpecProfile Group
-          </p>
-        </div>
+
+      {/* DESKTOP */}
+      <div className="hidden lg:flex flex-col justify-center items-center px-[80px] py-6 text-center space-y-1">
+        
+        <h2 className="text-2xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent">
+          NationalSpectrumView
+        </h2>
+
+        <p className="text-gray-600 text-sm">
+          Copyright 2026. The NCC/NRSS Research Team.
+        </p>
+
+        <p className="text-gray-500 text-xs">
+          Created by the NRSS Research Team.
+        </p>
+
       </div>
-    </>
+    </footer>
   );
 }
