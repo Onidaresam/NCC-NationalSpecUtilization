@@ -76,23 +76,27 @@ export default function SpectrumExplorer() {
   }, [selectedLocation, selectedRegion, selectedBand, selectedSubband]);
 
   return (
-    <div className="flex h-screen w-full overflow-hidden bg-gradient-to-br from-[#F3E8FF] via-[#FFFFFF] to-[#E0F2FE]">
-      <Sidebar
-        sidebarOpen={sidebarOpen}
-        setSidebarOpen={setSidebarOpen}
-        selectedLocation={selectedLocation}
-        setSelectedLocation={setSelectedLocation}
-        selectedRegion={selectedRegion}
-        setSelectedRegion={setSelectedRegion}
-        selectedBand={selectedBand}
-        setSelectedBand={setSelectedBand}
-        selectedSubband={selectedSubband}
-        setSelectedSubband={setSelectedSubband}
-      />
+  <div className="flex h-screen w-full overflow-hidden bg-gradient-to-br from-[#F3E8FF] via-[#FFFFFF] to-[#E0F2FE]">
+    <Sidebar
+      sidebarOpen={sidebarOpen}
+      setSidebarOpen={setSidebarOpen}
+      selectedLocation={selectedLocation}
+      setSelectedLocation={setSelectedLocation}
+      selectedRegion={selectedRegion}
+      setSelectedRegion={setSelectedRegion}
+      selectedBand={selectedBand}
+      setSelectedBand={setSelectedBand}
+      selectedSubband={selectedSubband}
+      setSelectedSubband={setSelectedSubband}
+    />
 
-      <div className="flex-1 overflow-y-auto p-6">
-        <ResultPanel result={result} />
-      </div>
+    <div className="flex-1 overflow-y-auto p-6">
+      <ResultPanel
+        result={result}
+        selectedLocation={selectedLocation}
+        hasBandSelection={!!selectedBand || !!selectedSubband}
+      />
     </div>
-  );
-}
+  </div>
+);
+
