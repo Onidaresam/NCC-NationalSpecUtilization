@@ -12,11 +12,11 @@ export default function Nav() {
         {/* Logo + Title */}
         <div className="flex items-center gap-3 group cursor-pointer">
 
-          <div className="h-20 w-20 rounded-full bg-[#1a1a2e] flex items-center justify-center shadow-[0_0_25px_#8E2DE2]">
+          <div className="h-20 w-20 rounded-full bg-[#1a1a2e] flex items-center justify-center shadow-[0_0_25px_#8E2DE2] overflow-hidden">
             <img 
               src="/waveform.jpg" 
               alt="Waveform" 
-              className="h-14 w-auto drop-shadow-[0_0_30px_#8E2DE2] brightness-150"
+              className="max-w-full max-h-full object-contain drop-shadow-[0_0_30px_#8E2DE2] brightness-150"
             />
           </div>
 
@@ -33,9 +33,9 @@ export default function Nav() {
               className="HAMBURGER-ICON space-y-2"
               onClick={() => setIsNavOpen((prev) => !prev)}
             >
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
-              <span className="block h-0.5 w-8 animate-pulse bg-gray-600"></span>
+              <span className="block h-0.5 w-8 bg-gray-600"></span>
+              <span className="block h-0.5 w-8 bg-gray-600"></span>
+              <span className="block h-0.5 w-8 bg-gray-600"></span>
             </div>
 
             <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
@@ -57,7 +57,6 @@ export default function Nav() {
                 </svg>
               </div>
 
-              {/* ⭐ MOBILE MENU LINKS (Meet the Team removed) */}
               <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
                 <Link
                   className="underline underline-offset-8 text-[#73FF0F] font-graphik text-base font-bold leading-6"
@@ -94,11 +93,11 @@ export default function Nav() {
         
         <div className="flex items-center gap-3 group cursor-pointer">
 
-          <div className="h-24 w-24 rounded-full bg-[#1a1a2e] flex items-center justify-center shadow-[0_0_40px_#8E2DE2]">
+          <div className="h-24 w-24 rounded-full bg-[#1a1a2e] flex items-center justify-center shadow-[0_0_40px_#8E2DE2] overflow-hidden">
             <img 
               src="/waveform.jpg" 
               alt="Waveform" 
-              className="h-18 w-auto drop-shadow-[0_0_40px_#8E2DE2] brightness-150"
+              className="max-w-full max-h-full object-contain drop-shadow-[0_0_40px_#8E2DE2] brightness-150"
             />
           </div>
 
@@ -109,7 +108,6 @@ export default function Nav() {
           </h1>
         </div>
 
-        {/* ⭐ DESKTOP MENU (Meet the Team removed) */}
         <div className="flex items-center space-x-[40px]">
           <Link
             to="/"

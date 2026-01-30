@@ -20,7 +20,7 @@ export default function Sidebar({
     <>
       {/* Mobile toggle button */}
       <button
-        className="lg:hidden p-3 bg-white shadow-md fixed top-4 left-4 z-50 rounded-md"
+        className="lg:hidden p-3 bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] text-white shadow-lg fixed top-4 left-4 z-50 rounded-md font-semibold"
         onClick={() => setSidebarOpen(!sidebarOpen)}
       >
         {sidebarOpen ? "Close" : "Menu"}
@@ -30,18 +30,21 @@ export default function Sidebar({
       <div
         className={`
           fixed lg:static top-0 left-0 h-full 
-          bg-white shadow-lg border-r border-gray-200 
+          bg-gradient-to-b from-[#1F2A44] to-[#F3F4F6]
+          shadow-[0_0_25px_#8E2DE2] border-r border-purple-300/30
           transition-transform duration-300 
           w-[320px] z-40 
           ${sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
         `}
       >
         {/* Scrollable content */}
-        <div className="h-full overflow-y-auto p-4 space-y-6">
+        <div className="h-full overflow-y-auto p-5 space-y-6">
 
-          {/* Locations */}
-          <div className="bg-white rounded-xl shadow-sm border p-4">
-            <h2 className="font-semibold text-lg mb-3">Location</h2>
+          {/* Section: Location */}
+          <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-md border border-white/20 p-4 hover:bg-white/20 transition">
+            <h2 className="font-bold text-lg mb-3 text-white tracking-wide">
+              Location
+            </h2>
             <LocationList
               selectedLocation={selectedLocation}
               setSelectedLocation={(loc) => {
@@ -53,10 +56,12 @@ export default function Sidebar({
             />
           </div>
 
-          {/* Regions (Lagos only) */}
+          {/* Section: Region (Lagos only) */}
           {selectedLocation === "Lagos" && (
-            <div className="bg-white rounded-xl shadow-sm border p-4">
-              <h2 className="font-semibold text-lg mb-3">Region</h2>
+            <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-md border border-white/20 p-4 hover:bg-white/20 transition">
+              <h2 className="font-bold text-lg mb-3 text-white tracking-wide">
+                Region
+              </h2>
               <RegionList
                 selectedLocation={selectedLocation}
                 selectedRegion={selectedRegion}
@@ -69,10 +74,12 @@ export default function Sidebar({
             </div>
           )}
 
-          {/* Bands */}
+          {/* Section: Bands */}
           {selectedLocation && (
-            <div className="bg-white rounded-xl shadow-sm border p-4">
-              <h2 className="font-semibold text-lg mb-3">Bands</h2>
+            <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-md border border-white/20 p-4 hover:bg-white/20 transition">
+              <h2 className="font-bold text-lg mb-3 text-white tracking-wide">
+                Bands
+              </h2>
               <BandList
                 selectedLocation={selectedLocation}
                 selectedRegion={selectedRegion}
@@ -85,10 +92,12 @@ export default function Sidebar({
             </div>
           )}
 
-          {/* Subbands */}
+          {/* Section: Subbands */}
           {selectedBand && (
-            <div className="bg-white rounded-xl shadow-sm border p-4">
-              <h2 className="font-semibold text-lg mb-3">Sub‑Bands</h2>
+            <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-md border border-white/20 p-4 hover:bg-white/20 transition">
+              <h2 className="font-bold text-lg mb-3 text-white tracking-wide">
+                Sub‑Bands
+              </h2>
               <SubbandList
                 selectedLocation={selectedLocation}
                 selectedRegion={selectedRegion}

@@ -2,9 +2,10 @@ import { useState, useEffect } from "react";
 
 export default function Carousel() {
   const images = [
-    "/slide1.jpg",
+    "/slide1.JPG",
     "/slide2.jpg",
-    "/slide3.jpg"
+    "/slide3.JPG",
+    "/slide4.JPG"
   ];
 
   const [index, setIndex] = useState(0);
