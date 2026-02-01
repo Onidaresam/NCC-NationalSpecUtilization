@@ -5,12 +5,12 @@ export default function Footer() {
     <footer className="w-full bg-white border-t border-gray-200 mt-10 sticky bottom-0">
       
       {/* Gradient Accent Bar */}
-      <div className="w-full h-1 bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2]" />
+      <div className="w-full h-1 bg-[#001F54]" />
 
       {/* MOBILE */}
       <div className="lg:hidden flex flex-col px-6 py-4 space-y-2 text-center items-center">
         
-        <h2 className="text-xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent">
+        <h2 className="text-xl font-extrabold bg-gradient-to-r from-[#1E3A8A] to-[#3B82F6] bg-clip-text text-transparent">
           NationalSpectrumView
         </h2>
 
@@ -26,7 +26,7 @@ export default function Footer() {
       {/* DESKTOP */}
       <div className="hidden lg:flex flex-col justify-center items-center px-[80px] py-6 text-center space-y-1">
         
-        <h2 className="text-2xl font-extrabold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent">
+        <h2 className="text-2xl font-extrabold bg-gradient-to-r from-[#1E3A8A] to-[#3B82F6] bg-clip-text text-transparent">
           NationalSpectrumView
         </h2>
 

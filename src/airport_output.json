@@ -1,0 +1,2744 @@
+{
+  "region": "Airport",
+  "bands": [
+    {
+      "range": "100kHz-30MHz",
+      "subbands": [
+        {
+          "range": "100 - 0",
+          "result": {
+            "utilization": 39229783,
+            "frequencies": {
+              "utilized": [
+                "100 - 0"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0 - 0",
+          "result": {
+            "utilization": 52273044,
+            "frequencies": {
+              "utilized": [
+                "0 - 0"
+              ],
+              "notutilized": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "range": "30MHz-300MHz",
+      "subbands": [
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 300095003,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 313138264,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 326181525,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 339224786,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 352268047,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 365311308,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 378354569,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 391397830,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 404441091,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 417484352,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 430527613,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 443570874,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 456614135,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 469657396,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 482700657,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 495743918,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 508787179,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 521830440,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 534873701,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "range": "300MHz-3GHz",
+      "subbands": [
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3000050030,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3013093291,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3026136552,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3039179813,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3052223074,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3065266335,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3078309596,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3091352857,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3104396118,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3117439379,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3130482640,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3143525901,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3156569162,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3169612423,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3182655684,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3195698945,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3208742206,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3221785467,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3234828728,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3247871989,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3260915250,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3273958511,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3287001772,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3300045033,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3313088294,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3326131555,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3339174816,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3352218077,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3365261338,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3378304599,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3391347860,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3404391121,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3417434382,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3430477643,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3443520904,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3456564165,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3469607426,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3482650687,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3495693948,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3508737209,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3521780470,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3534823731,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3547866992,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3560910253,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3573953514,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3586996775,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3600040036,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3613083297,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3626126558,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3639169819,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3652213080,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3665256341,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3678299602,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3691342863,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3704386124,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3717429385,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3730472646,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3743515907,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3756559168,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3769602429,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3782645690,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3795688951,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3808732212,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3821775473,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3834818734,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3847861995,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3860905256,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3873948517,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3886991778,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3900035039,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3913078300,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3926121561,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3939164822,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3952208083,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3965251344,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3978294605,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 3991337866,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4004381127,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4017424388,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4030467649,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4043510910,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4056554171,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4069597432,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4082640693,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4095683954,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4108727215,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4121770476,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4134813737,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4147856998,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4160900259,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4173943520,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4186986781,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4200030042,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4213073303,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4226116564,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4239159825,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4252203086,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4265246347,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4278289608,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4291332869,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4304376130,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4317419391,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4330462652,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4343505913,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4356549174,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4369592435,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4382635696,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4395678957,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4408722218,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4421765479,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4434808740,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4447852001,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4460895262,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4473938523,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4486981784,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4500025045,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4513068306,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4526111567,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4539154828,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4552198089,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4565241350,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4578284611,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4591327872,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4604371133,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4617414394,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4630457655,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4643500916,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4656544177,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4669587438,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4682630699,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4695673960,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4708717221,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4721760482,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4734803743,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4747847004,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4760890265,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4773933526,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4786976787,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4800020048,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4813063309,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4826106570,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4839149831,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4852193092,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4865236353,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4878279614,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4891322875,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4904366136,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4917409397,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4930452658,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4943495919,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4956539180,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4969582441,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4982625702,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 4995668963,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5008712224,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5021755485,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5034798746,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5047842007,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5060885268,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5073928529,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5086971790,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5100015051,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5113058312,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5126101573,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5139144834,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5152188095,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5165231356,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5178274617,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5191317878,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5204361139,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5217404400,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5230447661,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5243490922,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5256534183,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5269577444,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5282620705,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5295663966,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5308707227,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5321750488,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5334793749,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5347837010,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5360880271,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5373923532,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5386966793,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5400010054,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5413053315,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5426096576,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5439139837,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5452183098,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5465226359,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5478269620,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5491312881,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5504356142,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5517399403,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5530442664,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5543485925,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5556529186,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5569572447,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5582615708,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5595658969,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5608702230,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5621745491,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5634788752,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5647832013,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5660875274,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        },
+        {
+          "range": "0.00 MHz - 0.00 MHz",
+          "result": {
+            "utilization": 5673918535,
+            "frequencies": {
+              "utilized": [
+                "0.00 MHz - 0.00 MHz"
+              ],
+              "notutilized": []
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

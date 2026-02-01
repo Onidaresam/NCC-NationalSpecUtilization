@@ -43,44 +43,13 @@ function mapBandToGroup(rangeStr) {
   return null;
 }
 
-// Resolve input (name or object) to a concrete location/region object
-function resolveLocationTarget(input) {
-  if (!input) return null;
-
-  // If it's already an object with bands/regions, just use it
-  if (typeof input === "object") {
-    return input;
-  }
-
-  if (typeof input === "string") {
-    const name = input;
-
-    // 1) Try match as a top-level location
-    const loc = BandsData.find((l) => l.location === name);
-    if (loc) return loc;
-
-    // 2) Try match as a region name inside any location
-    const parent = BandsData.find(
-      (l) => Array.isArray(l.regions) && l.regions.some((r) => r.region === name)
-    );
-    if (parent) {
-      const reg = parent.regions.find((r) => r.region === name);
-      return reg || null;
-    }
-  }
-
-  return null;
-}
-
-// Process a single location or region (supports both)
-export function computeLocationStats(locationInput) {
-  const target = resolveLocationTarget(locationInput);
-
+// Process a single location (supports regions + normal locations)
+export function computeLocationStats(locationObj) {
   const allUtils = [];
   const bandUtils = { band1: [], band2: [], band3: [], band4: [] };
   const categorySizesMHz = { unused: 0, low: 0, moderate: 0, high: 0 };
 
-  if (!target) {
+  if (!locationObj) {
     return {
       avgUtilization: 0,
       categorySizesMHz,
@@ -88,10 +57,10 @@ export function computeLocationStats(locationInput) {
     };
   }
 
-  // If this target has regions, aggregate across them; otherwise use its bands directly
-  const regions = Array.isArray(target.regions)
-    ? target.regions
-    : [{ bands: target.bands || [] }];
+  // Determine if this location has regions
+  const regions = Array.isArray(locationObj.regions)
+    ? locationObj.regions
+    : [{ bands: locationObj.bands || [] }];
 
   regions.forEach((reg) => {
     if (!reg.bands) return;

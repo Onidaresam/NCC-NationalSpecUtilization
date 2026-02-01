@@ -7,28 +7,41 @@ export default function BandList({
   selectedBand,
   setSelectedBand,
 }) {
-  const normalize = (str) => str.replace(/\s+/g, "");
+  const normalize = (str) => (str ? str.replace(/\s+/g, "") : "");
 
   const locationData = BandsData.find(
     (loc) => loc.location === selectedLocation
   );
   if (!locationData) return null;
 
-  let bands = [];
+  let rawBands = [];
 
   if (selectedLocation === "Lagos") {
-    const regionObj = locationData.region?.find(
-      (r) => r.region === selectedRegion
+    const regionObj = locationData.regions?.find(
+      (r) => r && r.region === selectedRegion
     );
-    bands = regionObj?.bands || [];
+    rawBands = regionObj?.bands || [];
   } else {
-    bands = locationData.bands || [];
+    rawBands = locationData.bands || [];
   }
+
+  // Only keep the four main bands, never subbands
+  const bands = rawBands.filter((band) => {
+    if (!band || !band.range) return false;
+    const r = band.range.replace(/\s/g, "").toUpperCase();
+    return (
+      r.includes("100KHZ-30MHZ") ||
+      r.includes("30MHZ-300MHZ") ||
+      r.includes("300MHZ-3GHZ") ||
+      r.includes("3GHZ-6GHZ")
+    );
+  });
 
   return (
     <div className="flex flex-col space-y-2">
       {bands.map((band, index) => {
-        const isActive = normalize(selectedBand || "") === normalize(band.range);
+        const isActive =
+          normalize(selectedBand || "") === normalize(band.range);
 
         return (
           <button

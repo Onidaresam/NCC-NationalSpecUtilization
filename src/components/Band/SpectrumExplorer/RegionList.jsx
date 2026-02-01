@@ -10,11 +10,18 @@ export default function RegionList({
     (loc) => loc.location === selectedLocation
   );
 
-  if (!locationData?.region) return null;
+  if (!locationData?.regions || !Array.isArray(locationData.regions)) return null;
+
+  // Filter out any empty / invalid region entries
+  const regions = locationData.regions.filter(
+    (reg) => reg && typeof reg.region === "string" && reg.region.trim() !== ""
+  );
+
+  if (regions.length === 0) return null;
 
   return (
     <div className="flex flex-col space-y-2">
-      {locationData.region.map((reg, index) => {
+      {regions.map((reg, index) => {
         const isActive = selectedRegion === reg.region;
 
         return (

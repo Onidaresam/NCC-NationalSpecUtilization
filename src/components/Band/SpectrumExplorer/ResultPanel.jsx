@@ -10,27 +10,42 @@ import {
 import { Doughnut } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 
-import NationalDashboard from "../NationalDashboard";
-import LocationDashboard from "../LocationDashboard";
+import NationalDashboard from "../../NationalDashboard.jsx";
+import LocationDashboard from "../../LocationDashboard.jsx";
+import BandDashboard from "../../BandDashboard.jsx";
+import BandsData from "../../../Data/Bands/data";
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 export default function ResultPanel({
   result,
   selectedLocation,
+  selectedRegion,
+  selectedBand,
+  selectedSubband,
   hasBandSelection,
 }) {
   const [utilOpen, setUtilOpen] = useState(true);
   const [notUtilOpen, setNotUtilOpen] = useState(true);
 
+  const normalize = (str) => (str ? str.replace(/\s+/g, "") : "");
+
+  const locationObj = BandsData.find(
+    (loc) => loc.location === selectedLocation
+  );
+
+  const isMultiRegion = !!locationObj?.regions;
+
+  const displayName = selectedRegion || selectedLocation;
+
   /* ---------------------------------------------------------
-     1) NATIONAL DASHBOARD (no location selected)
+     1) NATIONAL DASHBOARD
   --------------------------------------------------------- */
   if (!selectedLocation) {
     return (
       <div className="space-y-8 animate-fadeIn">
         <NationalDashboard />
-        <div className="text-center text-gray-700 text-base lg:text-lg">
+        <div className="text-center text-[#A0522D] font-bold text-2xl lg:text-3xl drop-shadow-xl tracking-wide">
           Select a location from the sidebar to explore spectrum utilization.
         </div>
       </div>
@@ -38,54 +53,98 @@ export default function ResultPanel({
   }
 
   /* ---------------------------------------------------------
-     2) LOCATION DASHBOARD (location selected, no band selected)
+     2A) MULTI-REGION LOCATION: SELECT REGION FIRST
   --------------------------------------------------------- */
-  if (selectedLocation && !hasBandSelection) {
+  if (isMultiRegion && !selectedRegion) {
     return (
       <div className="space-y-8 animate-fadeIn">
         <LocationDashboard locationName={selectedLocation} />
-        <div className="text-center text-gray-700 text-base lg:text-lg">
-          Select a band or subband to view detailed results for {selectedLocation}.
+        <div className="text-center text-[#A0522D] font-bold text-2xl lg:text-3xl drop-shadow-xl tracking-wide">
+          Select a region to view detailed utilization for {selectedLocation}.
         </div>
       </div>
     );
   }
 
   /* ---------------------------------------------------------
-     3) BAND/SUBBAND RESULT (your original panel)
+     2B) REGION SELECTED: SHOW REGION DASHBOARD
+  --------------------------------------------------------- */
+  if (isMultiRegion && selectedRegion && !selectedBand) {
+    return (
+      <div className="space-y-8 animate-fadeIn">
+        <LocationDashboard locationName={selectedRegion} />
+        <div className="text-center text-[#A0522D] font-bold text-2xl lg:text-3xl drop-shadow-xl tracking-wide">
+          Select a band to view detailed results for {selectedRegion}.
+        </div>
+      </div>
+    );
+  }
+
+  /* ---------------------------------------------------------
+     2C) NORMAL LOCATION (NO REGIONS)
+  --------------------------------------------------------- */
+  if (!isMultiRegion && selectedLocation && !hasBandSelection) {
+    return (
+      <div className="space-y-8 animate-fadeIn">
+        <LocationDashboard locationName={selectedLocation} />
+        <div className="text-center text-[#A0522D] font-bold text-2xl lg:text-3xl drop-shadow-xl tracking-wide">
+          Select a band to view detailed results for {selectedLocation}.
+        </div>
+      </div>
+    );
+  }
+
+  /* ---------------------------------------------------------
+     3) BAND DASHBOARD
+  --------------------------------------------------------- */
+  let bandObj = null;
+
+  if (isMultiRegion) {
+    const regionObj = locationObj.regions?.find(
+      (r) => r.region === selectedRegion
+    );
+    bandObj = regionObj?.bands?.find(
+      (b) => normalize(b.range) === normalize(selectedBand)
+    );
+  } else {
+    bandObj = locationObj.bands?.find(
+      (b) => normalize(b.range) === normalize(selectedBand)
+    );
+  }
+
+  if (bandObj?.subbands && !selectedSubband) {
+    return (
+      <div className="space-y-8 animate-fadeIn">
+        <BandDashboard bandName={bandObj.range} bandData={bandObj.subbands} />
+
+        <div className="text-center text-[#A0522D] font-bold text-xl lg:text-2xl drop-shadow-xl tracking-wide">
+          Select a subband to view detailed results of utilized and unutilized frequencies.
+        </div>
+      </div>
+    );
+  }
+
+  /* ---------------------------------------------------------
+     4) SUBBAND RESULT PANEL
   --------------------------------------------------------- */
   if (!result) {
     return (
       <div className="flex flex-col items-center justify-center text-center py-20 space-y-4 animate-fadeIn">
-        <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#4F00B6] to-[#8E2DE2] flex items-center justify-center shadow-lg">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-8 w-8 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={1.5}
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3 5h2l3 10h8l3-6h2"
-            />
-          </svg>
-        </div>
-
-        <h2 className="text-2xl font-bold bg-gradient-to-r from-[#4F00B6] to-[#8E2DE2] bg-clip-text text-transparent">
+        <h2 className="text-2xl font-bold text-[#001F54]">
           Select a Band or Subband to View Detailed Results
         </h2>
 
         <p className="text-gray-600 max-w-md">
-          Choose a band or subband within {selectedLocation} to analyze duty
+          Choose a band or subband within {displayName} to analyze duty
           cycle, utilized frequencies, and unused spectrum.
         </p>
       </div>
     );
   }
 
+  /* ---------------------------------------------------------
+     5) DETAILED RESULT PANEL
+  --------------------------------------------------------- */
   const duty = parseFloat(result.utilization || "0");
   const utilized = result.frequencies?.utilized || [];
   const notUtilized = result.frequencies?.notutilized || [];
@@ -118,7 +177,7 @@ export default function ResultPanel({
       {/* Duty Cycle */}
       <div className="bg-white rounded-xl shadow-sm border p-6">
         <div className="flex items-center space-x-3 mb-4">
-          <ClockIcon className="w-7 h-7 text-[#4F00B6]" />
+          <ClockIcon className="w-7 h-7 text-[#001F54]" />
           <h2 className="text-xl font-semibold">Duty Cycle</h2>
         </div>
 
@@ -126,7 +185,7 @@ export default function ResultPanel({
           <div className="w-40 h-40 relative">
             <Doughnut data={donutData} options={donutOptions} />
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-2xl font-bold text-[#4F00B6]">
+              <span className="text-2xl font-bold text-[#001F54]">
                 {duty}%
               </span>
             </div>
@@ -135,21 +194,6 @@ export default function ResultPanel({
           <div className="space-y-3">
             <div className="px-3 py-2 bg-gray-100 rounded-lg border text-gray-700 shadow-sm">
               <strong>Status:</strong> {dutyLabel}
-            </div>
-
-            <div className="space-y-2">
-              <div className="flex items-center space-x-2">
-                <span className="w-4 h-4 bg-green-500 rounded"></span>
-                <span className="text-sm text-gray-700">Low (0–30%)</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="w-4 h-4 bg-yellow-500 rounded"></span>
-                <span className="text-sm text-gray-700">Moderate (30–80%)</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <span className="w-4 h-4 bg-red-500 rounded"></span>
-                <span className="text-sm text-gray-700">High (80–100%)</span>
-              </div>
             </div>
           </div>
         </div>

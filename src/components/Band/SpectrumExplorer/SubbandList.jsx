@@ -18,7 +18,7 @@ export default function SubbandList({
   let bandObj = null;
 
   if (selectedLocation === "Lagos") {
-    const regionObj = locationData.region?.find(
+    const regionObj = locationData.regions?.find(
       (r) => r.region === selectedRegion
     );
     bandObj = regionObj?.bands?.find(
