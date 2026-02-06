@@ -11732,7 +11732,7 @@ const BandsData = [
     },
     {
       id: 6,
-      location: "Warri",
+      location: "Owerri",
       bands: [
         //0hz to 30MHz
         {
@@ -16640,7 +16640,7 @@ const BandsData = [
     },
     {
   id: 10,
-  location: "Owerri",
+  location: "Warri",
   bands: [
     //0hz to 30MHz
     {

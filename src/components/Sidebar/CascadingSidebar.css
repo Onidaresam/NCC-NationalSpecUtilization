@@ -1,0 +1,34 @@
+.cs-sidebar {
+  display: flex;
+  height: 100%;
+  background: #f7f7f9;
+  font-size: 0.9rem;
+}
+
+.cs-column {
+  flex: 1;
+  border-right: 1px solid #e0e0e5;
+  overflow-y: auto;
+}
+
+.cs-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 6px 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  color: #333;
+}
+
+.cs-item:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.cs-item-active {
+  border-left-color: #0078ff;
+  background: rgba(0, 120, 255, 0.08);
+  font-weight: 500;
+}

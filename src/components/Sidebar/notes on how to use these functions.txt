@@ -1,0 +1,73 @@
+the SpectrumExplorer in this folder is for the cascading sidebar, different
+SpectrumExplorer.jsx. To use the cascading sidebar, copy this SpectrumExplorer.jsx into
+it's folder or follow this structure entirely.
+
+src/
+  components/
+    Sidebar/
+      CascadingSidebar.jsx
+      CascadingSidebar.css
+    SpectrumExplorer/
+      SpectrumExplorer.jsx
+      ResultPanel.jsx
+      ...
+
+ALSO NOTE THAT YOU HAVE TO CHANGE THE NAME FROM CASCADINGSpectrumExplorer.jsx to just 
+SpectrumExplorer.jsx, so that you don't replace all other dependendent scripts.
+
+Furthermore, the UPGRADED and NCC-STYLED SCRIPTS ARE ADDITIONS AFTER THE MAIN FUNCTIONALITY.
+They are extras
+
+Mobile‑friendly collapsible sidebar
+This adds:
+
+A hamburger button
+
+Slide‑in sidebar on mobile
+
+Smooth transitions
+
+Auto‑close when selecting an item
+
+Step 1 — Add mobile state to SpectrumExplorer.jsx
+Add this near your other state:
+const [mobileOpen, setMobileOpen] = useState(false);
+
+Step 2 — Add a mobile toggle button
+Place this above the sidebar:
+<button
+  className="md:hidden absolute top-4 left-4 z-50 bg-blue-600 text-white px-3 py-2 rounded shadow"
+  onClick={() => setMobileOpen(!mobileOpen)}
+>
+  ☰ Menu
+</button>
+
+Step 3 — Wrap the sidebar with mobile behavior
+Replace
+<CascadingSidebar ... />
+With:
+<div
+  className={`
+    fixed md:static z-40 h-full transition-transform duration-300
+    ${mobileOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"}
+  `}
+>
+  <CascadingSidebar
+    onSelectLocation={(v) => {
+      setSelectedLocation(v);
+      setMobileOpen(false);
+    }}
+    onSelectRegion={(v) => {
+      setSelectedRegion(v);
+      setMobileOpen(false);
+    }}
+    onSelectBand={(v) => {
+      setSelectedBand(v);
+      setMobileOpen(false);
+    }}
+    onSelectSubband={(v) => {
+      setSelectedSubband(v);
+      setMobileOpen(false);
+    }}
+  />
+</div>

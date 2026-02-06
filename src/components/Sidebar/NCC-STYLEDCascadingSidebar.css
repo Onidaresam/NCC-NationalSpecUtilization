@@ -1,0 +1,39 @@
+.cs-sidebar {
+  display: flex;
+  height: 100%;
+  background: linear-gradient(to bottom, #f8faff, #eef2ff);
+  font-size: 0.9rem;
+  border-right: 1px solid #d0d7e2;
+}
+
+.cs-column {
+  flex: 1;
+  min-width: 140px;
+  border-right: 1px solid #e2e8f0;
+  overflow-y: auto;
+}
+
+.cs-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px 14px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  color: #334155;
+  transition: all 0.15s ease;
+}
+
+.cs-item:hover {
+  background: rgba(0, 120, 255, 0.08);
+  color: #0f4c81;
+}
+
+.cs-item-active {
+  border-left-color: #0078ff;
+  background: rgba(0, 120, 255, 0.12);
+  font-weight: 600;
+  color: #0f4c81;
+}

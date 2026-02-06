@@ -89,24 +89,33 @@ function interpolateMissing(points) {
 // ------------------------------
 // Detect first numeric row
 // ------------------------------
-function findDataStart(rows) {
+function detectBands(rows) {
+  // Find the first row that contains a PURE numeric frequency
+  let dataStart = 1;
+
   for (let r = 0; r < rows.length; r++) {
     const row = rows[r];
-    const hasNumeric = row.some(cell => toMHzNumber(cell) !== null);
-    if (hasNumeric) return r;
-  }
-  return 1;
-}
 
-// ------------------------------
-// Detect frequency columns
-// ------------------------------
-function detectBands(rows) {
-  const dataStart = findDataStart(rows);
+    const hasPureFrequency = row.some(cell => {
+      const s = cell?.toString().trim().toLowerCase() || "";
+      // Accept only pure frequency values, not ranges
+      if (s.includes("-")) return false;
+      const f = toMHzNumber(s);
+      return f !== null && f >= 1 && f <= 6000;
+    });
+
+    if (hasPureFrequency) {
+      dataStart = r;
+      break;
+    }
+  }
+
   const band3 = [];
   const band4 = [];
 
-  for (let col = 0; col < rows[dataStart].length; col++) {
+  const header = rows[dataStart];
+
+  for (let col = 0; col < header.length; col++) {
     for (let r = dataStart; r < rows.length; r++) {
       const f = toMHzNumber(rows[r][col]);
       if (f == null) continue;
@@ -124,6 +133,7 @@ function detectBands(rows) {
 
   return { band3, band4, dataStart };
 }
+
 
 // ------------------------------
 // Detect duty-cycle column

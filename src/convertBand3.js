@@ -121,7 +121,7 @@ function classifyAndSummarizeSubbands(subbands) {
 }
 
 async function buildBand3Object() {
-  const rows = await parseCsv("unilorin.csv");
+  const rows = await parseCsv("Lokoja.csv");
   const points = extractBand3Points(rows);
   const segments = buildSegments(points);
   const subbands = splitSegmentsIntoSubbands(segments, BAND3_MIN, BAND3_MAX);
